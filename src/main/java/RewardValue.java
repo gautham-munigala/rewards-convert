@@ -13,9 +13,8 @@ public class RewardValue {
 		if(cash!=null) {
 			return cash.doubleValue();
 		}
-		else {
 			return convertMilesToCash(miles);
-		}
+		
 		
 	}
 	public int getMilesValue() {

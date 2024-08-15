@@ -31,6 +31,6 @@ public class RewardValueTests {
         int miles=1000;
         double cash=miles*0.0035;
         RewardValue reward=new RewardValue(miles);
-        assertEquals(reward, reward.getCashValue());
+        assertEquals(cash, reward.getCashValue());
     }
 }
